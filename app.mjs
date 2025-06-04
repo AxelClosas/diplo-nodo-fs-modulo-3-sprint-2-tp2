@@ -27,7 +27,7 @@ const superheroSchema = new mongoose.Schema(
 )
 
 // Se crea el modelo SuperHero que representa la colección (en este caso Grupo-04) siguiendo la estructura presentada en superheroSchema. Esto nos permitirá realizar las operaciones CRUD
-const SuperHero = mongoose.model("Grupo-04", superheroSchema)
+const SuperHero = mongoose.model("SuperHero", superheroSchema) // El código me funcionó sin problemas usando Grupo-04, sin embargo, lo dejaré tal cual se presenta en la guía. La duda de porqué se llama así y no Grupo-04 me la saqué con ChatGPT.
 
 // Metodo 1: Insertar un documento (C - Create => CRUD)
 async function insertSuperHero() {
