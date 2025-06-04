@@ -1,0 +1,29 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "Trabajo Práctico N°1 - Sprint 2 - Diplomatura en Programación Full Stack con Javascript - Modulo Backend",
+  "keywords": [
+    "Javascript",
+    "MongoDB",
+    "Mongoose",
+    "Node.js"
+  ],
+  "homepage": "https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-2-tp1#readme",
+  "bugs": {
+    "url": "https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-2-tp1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-2-tp1.git"
+  },
+  "license": "MIT",
+  "author": "Axel Closas <axelclosas13@gmail.com>",
+  "type": "module",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}
